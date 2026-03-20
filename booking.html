@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Session | Global English Prep Hub</title>
+    <meta
+      name="description"
+      content="Book IELTS, PTE, or TOEFL preparation support with a validation-ready static form and direct WhatsApp contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-theme="light">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Global English Prep Hub home">
+          <span class="brand-mark">G</span>
+          <span class="brand-copy">
+            <strong>Global English</strong>
+            <span>Prep Hub</span>
+          </span>
+        </a>
+        <nav class="site-nav" id="primary-navigation" aria-label="Primary">
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="ielts.html" data-nav-link>IELTS</a>
+          <a href="pte.html" data-nav-link>PTE</a>
+          <a href="toefl.html" data-nav-link>TOEFL</a>
+          <a href="study.html" data-nav-link>Study</a>
+          <a href="contact.html" data-nav-link>Contact</a>
+          <a class="nav-cta" href="booking.html" data-nav-link>Book Now</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle__icon">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="section page-hero">
+        <div class="container booking-layout">
+          <article class="hero-panel">
+            <span class="eyebrow">Booking page</span>
+            <h1>Book your preparation call without leaving the website</h1>
+            <p class="page-hero__lead">
+              This form is intentionally simple: enough information to capture a real lead, minimal friction for the visitor, and a JavaScript confirmation flow that works without any backend.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#booking-form">Open Form</a>
+              <a
+                class="btn btn-whatsapp"
+                href="https://wa.me/9848612210?text=Hi%2C%20I%27m%20interested%20in%20English%20test%20preparation%20and%20booking%20details."
+                target="_blank"
+                rel="noreferrer"
+                >WhatsApp First</a
+              >
+            </div>
+          </article>
+          <aside class="spotlight-panel">
+            <span class="pill-label">What happens next</span>
+            <div class="process-stack">
+              <div class="mini-card">
+                <strong>Share your exam target</strong>
+                <p>Select IELTS, PTE, or TOEFL so the follow-up stays specific to your goal.</p>
+              </div>
+              <div class="mini-card">
+                <strong>Choose your preferred date</strong>
+                <p>Pick a realistic day for a planning call or orientation session.</p>
+              </div>
+              <div class="mini-card">
+                <strong>Receive confirmation instantly</strong>
+                <p>The page confirms submission immediately while staying fully static and deployment-ready.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="booking-form">
+        <div class="container booking-layout">
+          <article class="form-panel">
+            <span class="eyebrow">Lead capture form</span>
+            <h2 class="section-title">Book your preparation today</h2>
+            <form data-form-type="booking" novalidate>
+              <div class="input-grid two-up">
+                <div class="field">
+                  <label for="booking-name">Name</label>
+                  <input id="booking-name" name="name" type="text" placeholder="Your full name" required />
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+                <div class="field">
+                  <label for="booking-email">Email</label>
+                  <input id="booking-email" name="email" type="email" placeholder="you@example.com" required />
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+                <div class="field">
+                  <label for="booking-exam">Exam Type</label>
+                  <select id="booking-exam" name="exam" required>
+                    <option value="">Select your exam</option>
+                    <option value="IELTS">IELTS</option>
+                    <option value="PTE">PTE</option>
+                    <option value="TOEFL">TOEFL</option>
+                  </select>
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+                <div class="field">
+                  <label for="booking-date">Preferred Date</label>
+                  <input id="booking-date" name="preferred-date" type="date" required />
+                  <div class="field-error" aria-live="polite"></div>
+                </div>
+              </div>
+              <div class="field">
+                <label for="booking-message">Message (Optional)</label>
+                <textarea id="booking-message" name="message" placeholder="Share your target score, current level, or any scheduling notes."></textarea>
+                <div class="field-error" aria-live="polite"></div>
+              </div>
+              <div class="form-status" aria-live="polite"></div>
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Submit Booking Request</button>
+              </div>
+            </form>
+          </article>
+
+          <aside class="info-panel">
+            <span class="eyebrow">Booking support</span>
+            <div class="info-stack">
+              <div class="mini-card">
+                <strong>Best for</strong>
+                <p>Students who already know their exam and want help building a clear study plan.</p>
+              </div>
+              <div class="mini-card">
+                <strong>Need a faster reply?</strong>
+                <p>Open WhatsApp if you want quick booking details before submitting the form.</p>
+              </div>
+              <div class="mini-card">
+                <strong>Recommended before booking</strong>
+                <p>Review the exam page and download the matching PDF so the session starts with context.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-panel">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="eyebrow">Global English Prep Hub</span>
+            <h3>Exam preparation designed for marketing, trust, and lead conversion</h3>
+            <p>Browse exam guides, open the study library, submit a booking request, or reach the team instantly on WhatsApp.</p>
+            <div class="footer-actions">
+              <a
+                class="btn btn-whatsapp"
+                href="https://wa.me/9848612210?text=Hi%2C%20I%27m%20interested%20in%20English%20test%20preparation%20and%20booking%20details."
+                target="_blank"
+                rel="noreferrer"
+                >WhatsApp CTA</a
+              >
+            </div>
+          </div>
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="study.html">Study</a></li>
+              <li><a href="booking.html">Booking</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Exams</h3>
+            <ul class="footer-links">
+              <li><a href="ielts.html">IELTS</a></li>
+              <li><a href="pte.html">PTE</a></li>
+              <li><a href="toefl.html">TOEFL</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact Info</h3>
+            <ul class="footer-links">
+              <li><a href="mailto:hello@globalenglishprep.com">hello@globalenglishprep.com</a></li>
+              <li><a href="tel:9848612210">9848612210</a></li>
+              <li>
+                <a
+                  href="https://wa.me/9848612210?text=Hi%2C%20I%27m%20interested%20in%20English%20test%20preparation%20and%20booking%20details."
+                  target="_blank"
+                  rel="noreferrer"
+                  >WhatsApp Chat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; <span data-year></span> Global English Prep Hub</span>
+          <span>Production-ready static website for lead generation</span>
+        </div>
+      </div>
+    </footer>
+
+    <nav class="mobile-dock" aria-label="Mobile quick navigation">
+      <a href="index.html" data-nav-link><span>01</span><span>Home</span></a>
+      <a href="ielts.html" data-nav-link><span>02</span><span>IELTS</span></a>
+      <a href="study.html" data-nav-link><span>03</span><span>Study</span></a>
+      <a href="booking.html" data-nav-link><span>04</span><span>Book</span></a>
+      <a href="contact.html" data-nav-link><span>05</span><span>Contact</span></a>
+    </nav>
+  </body>
+</html>

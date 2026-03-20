@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Resources | Global English Prep Hub</title>
+    <meta
+      name="description"
+      content="Filter IELTS, PTE, and TOEFL study resources including PDF downloads, videos, and practice materials."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body data-theme="light">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Global English Prep Hub home">
+          <span class="brand-mark">G</span>
+          <span class="brand-copy">
+            <strong>Global English</strong>
+            <span>Prep Hub</span>
+          </span>
+        </a>
+        <nav class="site-nav" id="primary-navigation" aria-label="Primary">
+          <a href="index.html" data-nav-link>Home</a>
+          <a href="ielts.html" data-nav-link>IELTS</a>
+          <a href="pte.html" data-nav-link>PTE</a>
+          <a href="toefl.html" data-nav-link>TOEFL</a>
+          <a href="study.html" data-nav-link>Study</a>
+          <a href="contact.html" data-nav-link>Contact</a>
+          <a class="nav-cta" href="booking.html" data-nav-link>Book Now</a>
+        </nav>
+        <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle__icon">◐</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="section page-hero">
+        <div class="container page-hero__grid">
+          <article class="hero-panel">
+            <span class="eyebrow">Study page</span>
+            <h1>Study smarter with filterable resources for every exam path</h1>
+            <p class="page-hero__lead">
+              This resource library is designed like a real education product: clear filters, direct actions, and just enough structure to move a visitor from browsing into real preparation without friction.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#resource-library">Browse Resources</a>
+              <a class="btn btn-secondary" href="booking.html">Book Study Support</a>
+            </div>
+            <div class="hero-proof">
+              <span class="tag">PDF downloads</span>
+              <span class="tag">Video sessions</span>
+              <span class="tag">Practice drills</span>
+            </div>
+          </article>
+          <aside class="spotlight-panel">
+            <span class="pill-label">How to use this page</span>
+            <ul class="timeline">
+              <li>Filter by IELTS, PTE, or TOEFL for a cleaner study view.</li>
+              <li>Open PDFs when you need structure and offline review.</li>
+              <li>Use videos and practice cards to turn theory into daily repetition.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="resource-library">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">Filterable library</span>
+              <h2 class="section-title">Resources grouped by exam and content type</h2>
+            </div>
+            <div class="pill-group" aria-label="Resource filters">
+              <button class="filter-pill is-active" type="button" data-filter="all">All</button>
+              <button class="filter-pill" type="button" data-filter="ielts">IELTS</button>
+              <button class="filter-pill" type="button" data-filter="pte">PTE</button>
+              <button class="filter-pill" type="button" data-filter="toefl">TOEFL</button>
+            </div>
+          </div>
+
+          <div class="resource-grid">
+            <article class="card resource-card" data-resource data-category="ielts">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">PDF</span>
+                  <h3>IELTS Starter Guide</h3>
+                </div>
+                <span class="tag">Band planning</span>
+              </div>
+              <p class="resource-meta">A printable overview of exam format, score targets, and a practical weekly study structure.</p>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="assets/pdf/ielts-guide.pdf" download>Download</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="ielts">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">Video</span>
+                  <h3>IELTS Speaking Practice</h3>
+                </div>
+                <span class="tag">Fluency</span>
+              </div>
+              <p class="resource-meta">A YouTube-based speaking practice stream focused on follow-up answers, expansion, and confidence.</p>
+              <div class="resource-media">
+                <iframe
+                  src="https://www.youtube.com/embed?listType=search&amp;list=IELTS%20speaking%20practice"
+                  title="IELTS speaking practice YouTube results"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="https://www.youtube.com/results?search_query=IELTS+speaking+practice" target="_blank" rel="noreferrer">Watch</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="ielts">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">Practice</span>
+                  <h3>IELTS Reading Drill</h3>
+                </div>
+                <span class="tag">Accuracy</span>
+              </div>
+              <p class="resource-meta">Train question-type recognition, evidence tracking, and time management before full reading mocks.</p>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="ielts.html">Open Practice</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="pte">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">PDF</span>
+                  <h3>PTE Quick Guide</h3>
+                </div>
+                <span class="tag">Task weighting</span>
+              </div>
+              <p class="resource-meta">A concise printable sheet covering high-value tasks, timing reminders, and integrated scoring focus areas.</p>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="assets/pdf/pte-guide.pdf" download>Download</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="pte">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">Video</span>
+                  <h3>PTE Repeat Sentence Training</h3>
+                </div>
+                <span class="tag">Memory + pace</span>
+              </div>
+              <p class="resource-meta">A video resource focused on repeat sentence rhythm, short-term retention, and microphone confidence.</p>
+              <div class="resource-media">
+                <iframe
+                  src="https://www.youtube.com/embed?listType=search&amp;list=PTE%20repeat%20sentence%20practice"
+                  title="PTE repeat sentence practice YouTube results"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="https://www.youtube.com/results?search_query=PTE+repeat+sentence+practice" target="_blank" rel="noreferrer">Watch</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="pte">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">Practice</span>
+                  <h3>PTE Dictation Set</h3>
+                </div>
+                <span class="tag">Listening</span>
+              </div>
+              <p class="resource-meta">Practice sentence reconstruction, spelling control, and chunk retention with dictation-focused drills.</p>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="pte.html">Open Practice</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="toefl">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">PDF</span>
+                  <h3>TOEFL Starter Guide</h3>
+                </div>
+                <span class="tag">Academic focus</span>
+              </div>
+              <p class="resource-meta">A printable summary of section priorities, integrated tasks, and academic listening expectations.</p>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="assets/pdf/toefl-guide.pdf" download>Download</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="toefl">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">Video</span>
+                  <h3>TOEFL Lecture Listening Practice</h3>
+                </div>
+                <span class="tag">Note-taking</span>
+              </div>
+              <p class="resource-meta">A lecture-focused YouTube practice stream designed to improve note selection and main-idea tracking.</p>
+              <div class="resource-media">
+                <iframe
+                  src="https://www.youtube.com/embed?listType=search&amp;list=TOEFL%20listening%20lecture%20practice"
+                  title="TOEFL lecture listening practice YouTube results"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="https://www.youtube.com/results?search_query=TOEFL+listening+lecture+practice" target="_blank" rel="noreferrer">Watch</a>
+              </div>
+            </article>
+
+            <article class="card resource-card" data-resource data-category="toefl">
+              <div class="card-header">
+                <div>
+                  <span class="resource-type">Practice</span>
+                  <h3>TOEFL Integrated Writing Drill</h3>
+                </div>
+                <span class="tag">Synthesis</span>
+              </div>
+              <p class="resource-meta">Practice reading-to-listening synthesis and academic response structure before full timed tasks.</p>
+              <div class="resource-actions">
+                <a class="btn btn-outline" href="toefl.html">Open Practice</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta-band">
+            <div>
+              <span class="eyebrow">Resource CTA</span>
+              <h2>Use the study library, then convert when you are ready</h2>
+              <p>Students can explore first and book later, or move straight into contact once they know which exam path fits.</p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn-lime" href="booking.html">Book Now</a>
+              <a
+                class="btn btn-secondary"
+                href="https://wa.me/9848612210?text=Hi%2C%20I%27m%20interested%20in%20English%20test%20preparation%20and%20booking%20details."
+                target="_blank"
+                rel="noreferrer"
+                >Chat on WhatsApp</a
+              >
+              <a class="btn btn-outline" href="contact.html">Contact Team</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-panel">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="eyebrow">Global English Prep Hub</span>
+            <h3>Exam preparation designed for marketing, trust, and lead conversion</h3>
+            <p>Browse exam guides, open the study library, submit a booking request, or reach the team instantly on WhatsApp.</p>
+            <div class="footer-actions">
+              <a
+                class="btn btn-whatsapp"
+                href="https://wa.me/9848612210?text=Hi%2C%20I%27m%20interested%20in%20English%20test%20preparation%20and%20booking%20details."
+                target="_blank"
+                rel="noreferrer"
+                >WhatsApp CTA</a
+              >
+            </div>
+          </div>
+          <div>
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="study.html">Study</a></li>
+              <li><a href="booking.html">Booking</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Exams</h3>
+            <ul class="footer-links">
+              <li><a href="ielts.html">IELTS</a></li>
+              <li><a href="pte.html">PTE</a></li>
+              <li><a href="toefl.html">TOEFL</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Contact Info</h3>
+            <ul class="footer-links">
+              <li><a href="mailto:hello@globalenglishprep.com">hello@globalenglishprep.com</a></li>
+              <li><a href="tel:9848612210">9848612210</a></li>
+              <li>
+                <a
+                  href="https://wa.me/9848612210?text=Hi%2C%20I%27m%20interested%20in%20English%20test%20preparation%20and%20booking%20details."
+                  target="_blank"
+                  rel="noreferrer"
+                  >WhatsApp Chat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; <span data-year></span> Global English Prep Hub</span>
+          <span>Production-ready static website for lead generation</span>
+        </div>
+      </div>
+    </footer>
+
+    <nav class="mobile-dock" aria-label="Mobile quick navigation">
+      <a href="index.html" data-nav-link><span>01</span><span>Home</span></a>
+      <a href="ielts.html" data-nav-link><span>02</span><span>IELTS</span></a>
+      <a href="study.html" data-nav-link><span>03</span><span>Study</span></a>
+      <a href="booking.html" data-nav-link><span>04</span><span>Book</span></a>
+      <a href="contact.html" data-nav-link><span>05</span><span>Contact</span></a>
+    </nav>
+  </body>
+</html>
